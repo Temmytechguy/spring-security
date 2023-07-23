@@ -38,6 +38,8 @@ public class SecurityConfig {
     @Bean
     public UserDetailsService userDetailsService()
     {
+
+        //branch dev
         return new InMemoryUserDetailsManager(
                 User.builder()
                         .username("user")
