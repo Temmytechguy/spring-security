@@ -19,7 +19,7 @@ public class MyAuthenticationManager  implements AuthenticationProvider {
             return UsernamePasswordAuthenticationToken.authenticated(
                     "temmy",
                     null,
-                    AuthorityUtils.createAuthorityList("ROLE_ADMIN")
+                    AuthorityUtils.createAuthorityList("ROLE_admin")
             );
         }
         return null;

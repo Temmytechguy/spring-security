@@ -17,7 +17,7 @@ public class WebController {
     @GetMapping("/")
     public String publicMessage()
     {
-        return "hello public user ";
+        return "hello Temmy  ";
 
     }
 
